@@ -3,9 +3,10 @@ class Month
 {
 public static void main(String[] args)
 {
-int mnum;
+int i;
 Scanner reader = new Scanner(System.in);
-mnum = reader.nextInt();
+System.out.print("Enter the month number: ");
+i = reader.nextInt();
 if(i==1)
 System.out.println("January");
 if(i==2)
