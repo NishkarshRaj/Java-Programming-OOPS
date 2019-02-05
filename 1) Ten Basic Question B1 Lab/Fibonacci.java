@@ -1,22 +1,37 @@
-import java.util.Scanner;
-class Fibonacci
+class Cmd_Calculator
 {
+
+int sum(int a, int b)
+{
+return a+b;
+}
+
+int sub(int a, int b)
+{
+return a-b;
+}
+
+int mul(int a, int b)
+{
+return a*b;
+}
+
+float divide(int a, int b)
+{
+return float(a/b);
+}
+
+
 public static void main(String[] args)
 {
-int i,range,a,b,c;
-a = 0;
-b = 1;
-Scanner reader = new Scanner(System.in);
-System.out.print("Enter the range of the Series you want to generate: ");
-range = reader.nextInt();
-System.out.println(a);
-System.out.println(b);
-for (i=0; i < range-2; i++)
-{
-c = a + b;
-System.out.println(c);
-a = b;
-b = c;
+int sum1,sub1,mul1;
+float divide1;
+sum1 = sum(args[0],args[1]);
+sub1 = sub(args[0],args[1]);
+mul1 = mul(args[0],args[1]);
+divide1 = divide(args[0],args[1]);
 }
-}
+
+
+
 }
