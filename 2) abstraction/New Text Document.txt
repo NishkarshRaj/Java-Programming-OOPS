@@ -1,0 +1,16 @@
+abstract class Bike
+{
+abstract void run();
+}
+class Honda
+{
+void run()
+{
+System.out.println("Running Successfully");
+}
+public static void main(String[] args)
+{
+Bike ob = new Honda();
+ob.run();
+}
+}
