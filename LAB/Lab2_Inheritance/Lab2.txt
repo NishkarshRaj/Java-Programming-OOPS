@@ -1,0 +1,10 @@
+Method Overriding: Runtime Polymorphism
+
+Ques1) Create code for Method Overloading!!!!
+Ques2) Extend Ques 1 to Inheritance == calculator
+Ques3) Animals = Catfamily = tiger, lion, cat
+Ques4) College security office = lost and found place = key values = university = school = department = specialization 2x
+Polymorphism: Different arguments (fields) to same function
+Ques5) Quiz using inheritance (to add: random functionality)
+
+Parent/Base/Superclass Derived/Child/Subclass

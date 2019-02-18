@@ -5,10 +5,11 @@ public static void main(String[] args)
 {
 int a,b,c,i,k;
 Scanner reader = new Scanner(System.in);
+System.out.println("Enter three numbers: ");
 a = reader.nextInt();
 b = reader.nextInt();
 c = reader.nextInt();
-System.out.println("Printing all the 8 combinations of the Three input numbers");
+System.out.println("Printing all the 6 combinations of the Three input numbers");
 for(i=1;i<=6;i++)
 {
 switch(i)

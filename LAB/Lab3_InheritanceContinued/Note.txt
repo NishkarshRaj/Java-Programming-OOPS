@@ -1,0 +1,30 @@
+Inheritance continued!!!
+
+Here in parent class define 
+"private field" and "private methods"
+and then try to access them in the child class using Set and Get command!!!
+Privatr => inherited but not accessible
+
+
+Encapsulation vs Data Abstraction
+
+Encapsulation is data hiding (information hiding) while Abstraction is detail hiding(implementation hiding).
+While encapsulation groups together data and methods that act upon the data, data abstraction deals with exposing the interface to the user and hiding the details of implementation.
+
+
+
+no pointer
+cbr???
+
+
+
+METHOD NOT FUNCTION!!!???
+
+1) Create faculty details private and access them!!!!
+Admin and Facutlt!!
+SCS parent
+Child!! cybernetics analytics systemetics
+Suppose systemetics want cybernetics teacher.... call them by inherting them!!!!
+//USE encapsulation and multi inheritance!!!
+
+BCD!!! private functions can be accessed outside using public methods and objects!!! cpp btw
