@@ -1,3 +1,20 @@
+Skip to content
+ 
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ @NishkarshRaj Sign out
+0
+0 0 NishkarshRaj/OOPS_Java
+ Code  Issues 0  Pull requests 0  Projects 0  Wiki  Insights  Settings
+OOPS_Java/6) Assignment1/Dispatch.java
+6c5f6a9  an hour ago
+@NishkarshRaj NishkarshRaj assignment 1
+     
+53 lines (48 sloc)  759 Bytes
 //Dynamic Method Dispatch!!!!
 class UPES
 {
@@ -50,3 +67,16 @@ ref = ob3;
 ref.description();
 }
 }
+© 2019 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Press h to open a hovercard with more details.
