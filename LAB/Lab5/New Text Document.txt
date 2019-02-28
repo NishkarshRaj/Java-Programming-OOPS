@@ -1,0 +1,9 @@
+Exception Handling
+{{try divide by zero!!!!}}
+///code to show all java programs have a thread called main thread
+///if you dont know which exception to include, compile and check from jvm error
+//print object using System.out
+//printStackTrace()
+
+
+Threads running for time t under try block
