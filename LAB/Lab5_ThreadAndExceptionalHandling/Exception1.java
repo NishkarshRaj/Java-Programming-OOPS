@@ -18,7 +18,7 @@ System.out.println("Different data types entered other than integer!!");
 }
 catch(ArithmeticException e)
 {
-System.out.println("The number is divided by zero and the value is: " + Integer.MAX_VALUE); 
+System.out.println("The number is divided by zero and the value is: " + Integer.MAX_VALUE); //MAX_VALUE prints the maximum value the int variable can have for the current computer/device
 //e.printStackTrace();
 //System.out.println(e);
 }

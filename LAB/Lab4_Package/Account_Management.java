@@ -1,6 +1,4 @@
 import java.util.Scanner;
-
-
 class Main_Server
 {
 String name = "Generic Bank";
