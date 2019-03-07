@@ -1,0 +1,17 @@
+Design a program for banking system in which three entities exists as:
+1) Employee
+2) Main Server
+3) Account Holder
+Bank is doing following process for "Account Management"
+1) Deposit //user
+2) Withdraw //user
+3) Credit //bank
+4) Debit //bank
+5) Balance
+
+
+Case 1) If account is nill, write cannot access the account details!!!
+and following process will be restricted:
+1) withdraw
+2) fund transfer {Own subsidiary account to main account life FD PPF etc.}
+

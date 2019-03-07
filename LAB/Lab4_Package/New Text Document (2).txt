@@ -1,0 +1,113 @@
+import java.util.Scanner;
+
+class Main_Server
+{
+String name;
+double Bank_balance;
+Main_Server(String n, double b)
+{
+name = n;
+Bank_balance = b;
+}
+}
+
+
+class Account_Holder extends Main_Server
+{
+String name;
+int account_number;
+int card_number;
+double balance;
+private int CVV; 
+private int PIN;
+AccountHolder(String n, int an, int cn, double bal, int c, int p)
+{
+name = n;
+account_number = an;
+card_number = cn;
+balance = bal;
+CVV = c;
+PIN = p;
+}
+}
+
+
+
+class Employee extends Main_Server 
+{
+String name;
+int SSN;
+double salary;
+String password = "B@nk!ng";
+public void SetEmployee(String n, int s, double sal)
+{
+name = n;
+SSN = s;
+salary = sal;
+}
+public String Getname()
+{
+return name;
+}
+public int GetSSN()
+{
+return SSN;
+}
+public double Getsalary()
+{
+return salary;
+}
+}
+
+
+class Account_Management
+{
+
+public void user()
+{
+System.out.println("Welcome to the User Account!!! Please Sign Up to Continue"); //File Management to store permanently!!!
+String name;
+double balance;
+int Pin, CVV, account_number, card_number;
+Scanner r = new Scanner(System.in);
+name = r.nextLine();
+balance = r.nextDouble();
+Pin = r.nextInt();
+CVV = r.nextInt();
+account_number = r.nextInt();
+card_number = r.nextInt();
+}
+
+
+
+
+
+
+
+public static void main(String[] args)
+{
+//Creating Bank Details
+Main_Server bank = new Main_Server("Generic Bank",1000000.00);
+//
+System.out.println("Welcome to Generic Banking System");
+System.out.println("Login Page");
+System.out.println("1) Login as User");
+System.out.println("2) Login as Employee");
+int ch;
+System.out.print("Enter your choice: ");
+Scanner reader = new Scanner(System.in);
+ch = reader.nextInt();
+switch(ch)
+{
+case 1: user();
+case 2: employee();
+default: System.out.println("Wrong Choice Entered!!! Exiting the System!!!"); //how to resend to the login page!!!
+}
+}
+
+
+
+
+
+
+}
