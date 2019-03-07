@@ -4,12 +4,13 @@ void show();
 }
 class Yeo implements Yo
 {
-void show()
+public void show() //DOUBT!! Does not work without public tag!! Why??
 {
+System.out.printf("First code of Interface!!");
+}
 public static void main(String[] args)
 {
-System.out.println("This is interfacing!!!");
+Yeo obj = new Yeo();
+obj.show();
 }
-}
-
 }

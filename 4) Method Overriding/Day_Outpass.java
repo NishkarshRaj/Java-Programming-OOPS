@@ -11,7 +11,7 @@ System.out.println("In Time: <In time>");
 }
 class Day_Outpass extends Outpass
 {
-@Override
+@Override //Keyword to tell the compiler that the function is overridden!!!
 public void show()
 {
 System.out.println("Day Outpass Show function!!!");
@@ -30,3 +30,12 @@ Outpass ob2 = new Day_Outpass();
 ob2.show();
 }
 }
+
+
+
+//Overriding versus overloading!!
+//Overloading: Same function name but different arguments: type, position, number of arguments
+//Overriding: Exact same function and arguments but in inherited class that are resolved at runtime
+//Two methods to override!
+//1) Shown here: Object always of parent class, create different constructor to call different function!!!
+//2) Using a reference variable: Done in assignment 1 folder

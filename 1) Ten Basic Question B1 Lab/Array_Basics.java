@@ -14,3 +14,14 @@ System.out.println(arr[i]); //default int values are 0
 }
 }
 }
+
+//In java only Dynamic allocation of arrays
+//Syntax:
+//<datatype> <arrname>[];
+//or
+//<datatype>[] <arrname>;
+//Allocate memory and specify size!!
+//Syntax:
+//<arrname> = new <datatype>[<size>]
+//for loop
+//for (i=0;i<arr.length;i++) //th!!! THE!!! Spelling of th

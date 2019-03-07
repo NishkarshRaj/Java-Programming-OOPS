@@ -1,4 +1,4 @@
-class MyClass extends Thread //Thread!!!! Class not defined!!!!!!
+class MyClass extends Thread //Thread!!!! Class not defined!!!!!! Predefined in the java.lang class library
 {
 public void run()
 {
@@ -21,6 +21,7 @@ ob2.start();
 }
 }
 
+//Run function is a keyword and its abstract form is defined here!!! It must be declared public!!!
 //Run Method initializes the Thread inbuilt function here modified
 //Start method is inbuilt method that calls the run method
 //Thread is a path!!! it is the path between run and start!!!
