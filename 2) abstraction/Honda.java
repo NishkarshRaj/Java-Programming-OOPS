@@ -2,6 +2,11 @@ abstract class Bike
 {
 abstract void run(); //in abstract class and interface we only declare the data members and member functions and dont define them
 }
+/*Interface versus Abstract Class!
+1) Keyword: implememts versus extends
+2) Multiple Inheritance
+3) Interface is 100% abstraction no non-abstract method allowed
+*/
 class Honda extends Bike //extends keyword for inheritance
 {
 void run()
@@ -21,3 +26,5 @@ ob.run();
 //BCD!!! only class file with main is executable
 //BCD!!! main is always void{returns nothing}, public{for user execuatble} and static{cannot change its def}
 //BCD!!! main arguments: String[] args or String args[] is for command line arguments
+
+

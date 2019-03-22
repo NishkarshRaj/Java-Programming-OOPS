@@ -22,3 +22,5 @@ HelloFriend obj = new HelloFriend();
 obj.show(); //Local has highest priority and thus if not resolved at runtime: perform the local overriddent function
 }
 }
+
+/*Here only one object but call to both of the function using keyword super

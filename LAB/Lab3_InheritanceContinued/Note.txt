@@ -3,7 +3,7 @@ Inheritance continued!!!
 Here in parent class define 
 "private field" and "private methods"
 and then try to access them in the child class using Set and Get command!!!
-Privatr => inherited but not accessible
+Private => inherited but not accessible
 
 
 Encapsulation vs Data Abstraction
