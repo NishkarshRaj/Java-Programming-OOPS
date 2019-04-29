@@ -1,0 +1,2 @@
+1) Emulate rmi code for a 4 function calculator!!!
+2) Emulate rmi code for File I/O.
