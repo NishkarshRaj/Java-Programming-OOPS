@@ -1,0 +1,13 @@
+import java.util.*;
+
+class Main
+{
+public static void main(String args[])
+{
+LinkedList<int> obj = new LinkedList<int>(); //Linked List in inbuilt package in java.util and its a template with data structure!! Try to create from scratch with multiple data types involved
+obj.add(1);
+obj.add(2);
+obj.add(3);
+obj.get(1);
+}
+}
