@@ -1,0 +1,36 @@
+import java.util.Scanner;
+//mixture that why its bad
+//At every iteration, smallest element at top
+public class SelectionSort
+{
+public static void main(String args[])
+{
+Scanner reader = new Scanner(System.in);
+int n,i,j,temp;
+System.out.print("Enter the number of elements you want: ");
+n = reader.nextInt();
+int arr[] = new int[n];
+for(i=0;i<n;i++)
+{
+System.out.print("Enter the " + (i+1) + " element of the array: ");
+arr[i] = reader.nextInt();
+}
+for(i=0;i<n-1;i++)
+{
+for(j=i+1;j<n;j++)
+{
+if(arr[j]<arr[i])
+{
+temp = arr[i];
+arr[i] = arr[j];
+arr[j] = temp;
+}
+}
+}
+System.out.println("\n\nDisplaying Sorted Array");
+for(i=0;i<n;i++)
+{
+System.out.println(arr[i]);
+}
+}
+}

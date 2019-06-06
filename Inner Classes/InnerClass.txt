@@ -1,0 +1,15 @@
+public class InnerClass
+{
+public class Inn
+{
+public void show()
+{
+System.out.println("Aye GGs Man!!");
+}
+}
+public static void main(String args[])
+{
+InnerClass.Inn obj = new InnerClass().new Inn();
+obj.show();
+}
+}

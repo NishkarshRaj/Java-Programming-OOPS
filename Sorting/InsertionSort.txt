@@ -1,0 +1,37 @@
+import java.util.Scanner;
+public class InsertionSort
+{
+public static void main(String args[])
+{
+Scanner reader = new Scanner(System.in);
+int n,i,j,key;
+System.out.print("Enter the number of elements you want: ");
+n = reader.nextInt();
+int arr[] = new int[n];
+for(i=0;i<n;i++)
+{
+System.out.print("Enter the " + (i+1) + " element of the array: ");
+arr[i] = reader.nextInt();
+}
+
+for(i=0;i<n;i++)
+{
+key = arr[i];
+j = i-1;
+while(j>=0 && arr[j]>key)
+{
+arr[j+1] = arr[j];
+j--;
+}
+arr[j+1] = key;
+}
+
+
+
+System.out.println("\n\nDisplaying Sorted Array");
+for(i=0;i<n;i++)
+{
+System.out.println(arr[i]);
+}
+}
+}

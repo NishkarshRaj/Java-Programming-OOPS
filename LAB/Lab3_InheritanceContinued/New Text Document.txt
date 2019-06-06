@@ -1,5 +1,0 @@
-//MIG (Fighter plane application)
-//1) fly()
-//2) fight() => gun, missiles
-//3) RadarSystem()
-//4) Sonar()
